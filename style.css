@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calender{
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-direction: column;
+    font-size: 35px;
+    color:#fff;
+    font-weight: 600;
+    border: 2px solid #fff;
+
+}
+.calender .left{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.calender .right{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.calender .date{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-height: 100%;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+}
+.date hr{
+    background-color: blue;
+    height: 127%;
+    position: absolute;
+    top:0;
+    right: 55%;
+    
+}
+.calender .time{
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    border-radius: 20px;
+}
